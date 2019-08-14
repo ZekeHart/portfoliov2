@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +32,7 @@ export default {
 
 body {
     background: linear-gradient(45deg, #4a026b, #0d26b3, #1a84db, #0d26b3, #4a026b);
-    background-size: 300% 200%;
+    background-size: 300% 300%;
     animation: AnimationName 10s ease infinite;
 }
 
@@ -42,7 +43,8 @@ body {
 }
 
 .headShot {
-  border-radius: 10%;
-  max-width: 300px;
+  border-radius: 20%;
+  border: solid #2c3e50;
+  max-width: 200px;
 }
 </style>
